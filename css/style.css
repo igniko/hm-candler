@@ -14,6 +14,7 @@ html {
 
 body {
   font-family: "Comfortaa", cursive;
+  /* font-family: "Yeseva One", cursive; */
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -200,7 +201,8 @@ button {
     width: 14px;
     height: 14px;
     left: -16px;
-    top: -2px;
+    top: -3px;
+    background-size: cover;
   }
 }
 
