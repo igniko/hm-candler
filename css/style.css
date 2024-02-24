@@ -51,6 +51,25 @@ button {
   padding: 0 10px;
 }
 
+/* BURGER */
+.menu__btn {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 30px;
+  height: 25px;
+  border: 0;
+  border-radius: 0;
+  background-color: transparent;
+  padding: 0;
+}
+
+.menu__btn span {
+  height: 1px;
+  background-color: #7b6152;
+  width: 100%;
+}
+
 /* HEADER */
 .header {
   /* max-width: 1440px; */
@@ -64,22 +83,6 @@ button {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-/* BURGER */
-.menu__btn {
-  display: none;
-  flex-direction: column;
-  justify-content: space-between;
-  width: 30px;
-  height: 25px;
-  background-color: transparent;
-}
-
-.menu__btn span {
-  height: 1px;
-  background-color: #7b6152;
-  width: 100%;
 }
 
 .menu__list {
